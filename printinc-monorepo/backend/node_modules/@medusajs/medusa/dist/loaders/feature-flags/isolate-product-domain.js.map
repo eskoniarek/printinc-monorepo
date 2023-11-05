@@ -1,0 +1,1 @@
+{"version":3,"file":"isolate-product-domain.js","sourceRoot":"","sources":["../../../src/loaders/feature-flags/isolate-product-domain.ts"],"names":[],"mappings":";;AAEA,IAAM,+BAA+B,GAAiB;IACpD,GAAG,EAAE,wBAAwB;IAC7B,WAAW,EAAE,KAAK;IAClB,OAAO,EAAE,kCAAkC;IAC3C,WAAW,EAAE,yDAAyD;CACvE,CAAA;AAED,kBAAe,+BAA+B,CAAA"}

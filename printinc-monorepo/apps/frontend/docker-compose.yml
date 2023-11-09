@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./frontend:/usr/src/app
+      - /usr/src/app/.next/cache  # Assuming you want to cache the .next build folder
+    env_file:
+      - .env.production  # Make sure this file is located at the root of the project
+    environment:
+      NEXT_PUBLIC_MEDUSA_BACKEND_URL: https://printinc.shop:9000
+      NEXT_PUBLIC_BASE_URL: https://printinc.shop
+      NEXT_PUBLIC_STRIPE_KEY: ${NEXT_PUBLIC_STRIPE_KEY}
+      REVALIDATE_SECRET: ${REVALIDATE_SECRET}
+   

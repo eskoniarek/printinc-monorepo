@@ -26,10 +26,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(main)/not-found.js"
     ],
-    "/(main)/store/page": [
+    "/(main)/account/(dashboard)/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(main)/store/page.js"
+      "static/chunks/app/(main)/account/(dashboard)/page.js"
+    ],
+    "/(main)/account/(dashboard)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(main)/account/(dashboard)/layout.js"
+    ],
+    "/(main)/account/(auth)/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(main)/account/(auth)/login/page.js"
     ]
   }
 }

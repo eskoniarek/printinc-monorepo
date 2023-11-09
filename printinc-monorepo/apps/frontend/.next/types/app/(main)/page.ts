@@ -1,4 +1,4 @@
-// File: /Users/skoniarek/printinc-monorepo/frontend/src/app/(main)/page.tsx
+// File: /Users/skoniarek/printinc-monorepo/apps/frontend/src/app/(main)/page.tsx
 import * as entry from '../../../../src/app/(main)/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

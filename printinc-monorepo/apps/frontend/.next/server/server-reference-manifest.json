@@ -1,16 +1,18 @@
 {
   "node": {
-    "3a7d6cbea25553a6080ba365f7ed22381704a358": {
+    "04be4d0c57c33327ed154ad9526f0965188f4b70": {
       "workers": {
-        "app/(main)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fskoniarek%2Fprintinc-monorepo%2Ffrontend%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22revalidateTags%22%5D%5D%5D&__client_imported__=true!",
-        "app/(main)/store/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fskoniarek%2Fprintinc-monorepo%2Ffrontend%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22revalidateTags%22%5D%5D%5D&__client_imported__=true!"
+        "app/(main)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fskoniarek%2Fprintinc-monorepo%2Fapps%2Ffrontend%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22revalidateTags%22%5D%5D%5D&__client_imported__=true!",
+        "app/(main)/account/(dashboard)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fskoniarek%2Fprintinc-monorepo%2Fapps%2Ffrontend%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22revalidateTags%22%5D%5D%5D&__client_imported__=true!",
+        "app/(main)/account/(auth)/login/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fskoniarek%2Fprintinc-monorepo%2Fapps%2Ffrontend%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22revalidateTags%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/(main)/page": "action-browser",
-        "app/(main)/store/page": "action-browser"
+        "app/(main)/account/(dashboard)/page": "action-browser",
+        "app/(main)/account/(auth)/login/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "YyUF5AtOKhmFeRIlIWJ4GAs+ljkrGTYudB/rkoX4WLE="
+  "encryptionKey": "oV9MxrBgKjM00SVqF7b7aZaHL7swqxrao8qPPy1D5eQ="
 }
